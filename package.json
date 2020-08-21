@@ -8,9 +8,9 @@
     "create-local": "graph create omgdev/omgswap --node http://127.0.0.1:8020",
     "build": "graph build",
     "deploy-local": "graph deploy omgdev/omgswap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "deploy": "graph deploy solopane/omgswap  --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
+    "deploy": "graph deploy solopane/omg-subgraph  --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug $ACCESS_TOKEN",
     "deploy-staging": "graph deploy $THE_GRAPH_GITHUB_USER/$THE_GRAPH_SUBGRAPH_NAME /Uniswap --ipfs https://api.staging.thegraph.com/ipfs/ --node https://api.staging.thegraph.com/deploy/",
-    "watch-local": "graph deploy omgswap/omg-subgraph --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
+    "watch-local": "graph deploy solopane/omgswap --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.16.0",

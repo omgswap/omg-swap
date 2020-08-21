@@ -45,7 +45,7 @@ templates:
       file: ./src/mappings/exchange.ts
       entities:
         - Exchange
-        - OmgSwap
+        - Uniswap
         - User
         - UserExchangeData
         - Transaction
