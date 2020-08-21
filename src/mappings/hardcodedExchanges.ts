@@ -14,6 +14,28 @@ export const hardcodedExchanges: Array<AsExchange> = [
     tokenDecimals: 18,
     exchangeAddress: '0x2c4bd064b998838076fa341a83d007fc2fa50957'
   },
+ {
+    symbol: 'QBTC',
+    name: 'QBitcoin',
+    tokenAddress: '0x1089cc742f0F9712eb64d01Bde67e82A800d2f77',
+    tokenDecimals: 18,
+    exchangeAddress: '0xE35876223DFaD3CD341cf38c17FC6D0921591acc'
+  },
+   {
+    symbol: 'OPM',
+    name: 'Omega Protocol Money',
+    tokenAddress: '0xF4c17Bc4979c1dc7b4CA50115358Dec58C67fD9d',
+    tokenDecimals: 18,
+    exchangeAddress: '0xbBF062891Af8fDf67bf20329A973a805AE391f13'
+  },
+    {
+    symbol: 'pDAI',
+    name: 'Prime DAI',
+    tokenAddress: '0x9043d4d51C9d2e31e3F169de4551E416970c27Ef',
+    tokenDecimals: 18,
+    exchangeAddress: '0x3673A63653aa9DCb8C3d013fDf388b627dE76279'
+  },
+
   {
     symbol: 'DAI',
     name: 'Dai Stablecoin v1.0',
